@@ -8,8 +8,8 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
-        // target: 'https://extra-attendance-backend-production.up.railway.app',
+        // target: 'http://localhost:8080',
+        target: 'https://extra-attendance-backend-production.up.railway.app',
         changeOrigin: true,
       },
     },
